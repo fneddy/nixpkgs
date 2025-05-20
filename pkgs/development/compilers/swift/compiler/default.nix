@@ -481,6 +481,7 @@ stdenv.mkDerivation {
           {
             "x86_64" = "X86";
             "aarch64" = "AArch64";
+            "s390x" = "S390X";
           }
           .${targetPlatform.parsed.cpu.name}
         }
