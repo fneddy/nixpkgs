@@ -477,7 +477,7 @@ stdenv.mkDerivation {
       cmakeFlags="
         -GNinja
         -DLLVM_ENABLE_PROJECTS=clang
-        -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=S390X
+        -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=SystemZ
       "
       buildProject llvm llvm-project/llvm
 
